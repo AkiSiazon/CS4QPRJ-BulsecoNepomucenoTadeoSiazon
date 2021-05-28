@@ -1,0 +1,355 @@
+ <!DOCTYPE html>
+<html lang="en">
+	<head>
+		<title>Project</title>
+			<meta charset="utf-8">
+			<meta name="viewport" content="width=device-width, initial-scale=1.0">
+			<link rel="stylesheet" href="style.css">
+	
+	</head>
+
+	<body>
+		<div id="level1">
+			<p id="shopname">GRIEN</p>
+      <p id="hey1">|</p>
+			<p id="home" onclick="returnHome()">Home</p>
+      <p id="hey2">Bundles</p>
+      <p id="hey3">Membership</p>
+			<select name="category" id="category" onchange="goAisle()">
+				<option value="Drinks and Beverages">Drinks and Beverages</option>
+				<option value="Foods, Snacks, Treats">Foods, Snacks, Treats</option>
+				<option value="Canned Goods">Canned Goods</option>
+				<option value="Health and Personal Care Products">Health and Personal Care Products</option>
+			</select>
+			<button id="search" name="searchbutton" onclick="search()">Search</button>
+			<input type="text" id="searchbar" name="searchbar" placeholder="Search...">
+		</div>
+
+		<div id="level2">
+			<div id="text">
+				<div id="greeting">Welcome to Grien.</div>
+				<p id="intro">Your One-stop online grocery</p><br>
+				<button id="goshop" name="goshop" onclick="goShop()" >Go To Shop >></button>
+				<button id="learnmore" name="learnmore" onclick="learnmore();" >Learn More >></button><br><br>
+			</div>
+		</div>
+		
+
+		
+		<div id="shop">
+			<div id="level4">
+				Drinks & Beverages
+			</div>
+
+			<div id="level5">
+				<div>
+					<div id="a">
+						<div class="polaroid">
+							<div><img src="https://ph-test-11.slatic.net/p/373c93d86a4226df38e91bcc0224d395.jpg" alt="c2 bottle"></div>
+							<div class="container">
+								<p>C2 500mL</p>
+							</div>
+						</div>
+						<div><img src="https://media.istockphoto.com/vectors/shopping-cart-icon-isolated-on-white-background-vector-id1206806317?k=6&m=1206806317&s=170667a&w=0&h=AWU8_gwiznsLQxCjVn-3wpABn4AHtTSNVgS_A9g4Fro=" alt="carticon" class="addtocart" onclick="add1()"></div>
+					</div>
+					<div id="b">
+						<div class="polaroid">
+							<div><img src="https://ph-test-11.slatic.net/p/1241d0f2728562030dd0e4d354374128.jpg" alt="c2 bottle"></div>
+							<div class="container">
+								<p>DemiSoda Apple 250mL</p>
+							</div>
+						</div>
+						<div><img src="https://media.istockphoto.com/vectors/shopping-cart-icon-isolated-on-white-background-vector-id1206806317?k=6&m=1206806317&s=170667a&w=0&h=AWU8_gwiznsLQxCjVn-3wpABn4AHtTSNVgS_A9g4Fro=" alt="carticon" class="addtocart" onclick="add2()"></div>
+					</div>
+					<div id="c">
+						<div class="polaroid">
+							<div><img src="https://cached.imagescaler.hbpl.co.uk/resize/scaleWidth/815/cached.offlinehbpl.hbpl.co.uk/news/ORP/Coke-20150730041122131.jpg" alt="c2 bottle"></div>
+							<div class="container">
+								<p>Coca-Cola (Can) 330mL</p>
+							</div>
+						</div>
+						<div><img src="https://media.istockphoto.com/vectors/shopping-cart-icon-isolated-on-white-background-vector-id1206806317?k=6&m=1206806317&s=170667a&w=0&h=AWU8_gwiznsLQxCjVn-3wpABn4AHtTSNVgS_A9g4Fro=" alt="carticon" class="addtocart" onclick="add3()"></div>
+					</div>
+				</div>
+				<br><br>
+				<div>
+					<div id="d">
+						<div class="polaroid">
+							<div><img src="https://www.wowtiongsan.com/shop/1974-large_default/2000.jpg" alt="c2 bottle"></div>
+							<div class="container">
+								<p>BLUE Water-based Drink 500mL</p>
+							</div>
+						</div>
+						<div><img src="https://media.istockphoto.com/vectors/shopping-cart-icon-isolated-on-white-background-vector-id1206806317?k=6&m=1206806317&s=170667a&w=0&h=AWU8_gwiznsLQxCjVn-3wpABn4AHtTSNVgS_A9g4Fro=" alt="carticon" class="addtocart" onclick="add4()"></div>
+					</div>
+					<div id="e">
+						<div class="polaroid">
+							<div><img src="https://www.bigbasket.com/media/uploads/p/l/100401175-2_3-fanta-soft-drink-orange-flavoured.jpg" alt="c2 bottle"></div>
+							<div class="container">
+								<p>Fanta Orange Flavour 250mL</p>
+							</div>
+						</div>
+						<div><img src="https://media.istockphoto.com/vectors/shopping-cart-icon-isolated-on-white-background-vector-id1206806317?k=6&m=1206806317&s=170667a&w=0&h=AWU8_gwiznsLQxCjVn-3wpABn4AHtTSNVgS_A9g4Fro=" alt="carticon" class="addtocart" onclick="add5()"></div>
+					</div>
+					<div id="f">
+						<div class="polaroid">
+							<div><img src="https://cdn.shopify.com/s/files/1/0036/4806/1509/products/8569dad9e3029550767b8974a1120305c006f0f1_square959339_1.jpg?v=1601834687" alt="c2 bottle"></div>
+							<div class="container">
+								<p>MUG Root Beer 355mL</p>
+							</div>
+						</div>
+						<div><img src="https://media.istockphoto.com/vectors/shopping-cart-icon-isolated-on-white-background-vector-id1206806317?k=6&m=1206806317&s=170667a&w=0&h=AWU8_gwiznsLQxCjVn-3wpABn4AHtTSNVgS_A9g4Fro=" alt="carticon" class="addtocart" onclick="add6()"></div>
+					</div>
+				</div>
+			</div>
+
+			<div id="level6">
+				Food and Snacks
+			</div>
+
+			<div id="level7">
+				<div>
+					<div id="g">
+						<div class="polaroid">
+							<div><img src="https://m.media-amazon.com/images/I/81NY8Z9Ub+L._SL1500_.jpg" alt="c2 500ml"></div>
+							<div class="container">
+								<p>Mang Juan Chicharon 90g</p>
+							</div>
+						</div>
+						<div><img src="https://media.istockphoto.com/vectors/shopping-cart-icon-isolated-on-white-background-vector-id1206806317?k=6&m=1206806317&s=170667a&w=0&h=AWU8_gwiznsLQxCjVn-3wpABn4AHtTSNVgS_A9g4Fro=" alt="carticon" class="addtocart" onclick="add7()"></div>
+					</div>
+					<div id="h">
+						<div class="polaroid">
+							<div><img src="https://ph-test-11.slatic.net/p/c691378199c75ebe47194d718ae36fcb.jpg" alt="demisoda"></div>
+							<div class="container">
+								<p>Cheetos Crunchy Cheese 8oz</p>
+							</div>
+						</div>
+						<div><img src="https://media.istockphoto.com/vectors/shopping-cart-icon-isolated-on-white-background-vector-id1206806317?k=6&m=1206806317&s=170667a&w=0&h=AWU8_gwiznsLQxCjVn-3wpABn4AHtTSNVgS_A9g4Fro=" alt="carticon" class="addtocart" onclick="add8()"></div>
+					</div>
+					<div id="i">
+						<div class="polaroid">
+							<div><img src="https://ph-live-01.slatic.net/p/3b7a5b1934cc509fb6d6ced2c706824b.jpg"  alt="coke can 330 ml"></div>
+							<div class="container">
+								<p>Doritos Nacho Cheese 198g</p>
+							</div>
+						</div>
+						<div><img src="https://media.istockphoto.com/vectors/shopping-cart-icon-isolated-on-white-background-vector-id1206806317?k=6&m=1206806317&s=170667a&w=0&h=AWU8_gwiznsLQxCjVn-3wpABn4AHtTSNVgS_A9g4Fro=" alt="carticon" class="addtocart" onclick="add9()"></div>
+					</div>
+				</div>
+				<br><br>
+				<div>
+					<div id="j">
+						<div class="polaroid">
+							<div><img src="https://target.scene7.com/is/image/Target/GUEST_aa521b9a-1958-4350-8be2-69ab0f23db72?wid=488&hei=488&fmt=pjpeg" alt="blue water lychee 550ml"></div>
+							<div class="container">
+								<p>m&m Peanuts (fun size)</p>
+							</div>
+						</div>
+						<div><img src="https://media.istockphoto.com/vectors/shopping-cart-icon-isolated-on-white-background-vector-id1206806317?k=6&m=1206806317&s=170667a&w=0&h=AWU8_gwiznsLQxCjVn-3wpABn4AHtTSNVgS_A9g4Fro=" alt="carticon" class="addtocart" onclick="add10()"></div>
+					</div>
+					<div id="k">
+						<div class="polaroid">
+							<div><img src="https://cf.shopee.ph/file/30d504831bc6326aa862cb5ce07cb2b3" alt="fanta 250ml"></div>
+							<div class="container">
+								<p>Oreo original (9 packs)</p>
+							</div>
+						</div>
+						<div><img src="https://media.istockphoto.com/vectors/shopping-cart-icon-isolated-on-white-background-vector-id1206806317?k=6&m=1206806317&s=170667a&w=0&h=AWU8_gwiznsLQxCjVn-3wpABn4AHtTSNVgS_A9g4Fro=" alt="carticon" class="addtocart" onclick="add11()"></div>
+					</div>
+					<div id="l">
+						<div class="polaroid">
+							<div><img src="https://i5.walmartimages.com/asr/d4f87704-3007-475c-b705-168ed925c8da.f04e83c857a2d403b7ae370f2444e066.jpeg"  alt="root beer 355ml"></div>
+							<div class="container">
+								<p>Skittles original (fun size)</p>
+							</div>
+						</div>
+						<div><img src="https://media.istockphoto.com/vectors/shopping-cart-icon-isolated-on-white-background-vector-id1206806317?k=6&m=1206806317&s=170667a&w=0&h=AWU8_gwiznsLQxCjVn-3wpABn4AHtTSNVgS_A9g4Fro=" alt="carticon" class="addtocart" onclick="add12()"></div>
+					</div>
+				</div>
+			</div>
+
+			<div id="level8">
+				Canned Goods
+			</div>
+
+			<div id="level9">
+				<div>
+					<div id="m">
+						<div class="polaroid">
+							<div><img src="https://ph-test-11.slatic.net/p/mdc/3c00046f71e8e5d39d805711f27d59a3.jpg" alt="c2 bottle"></div>
+							<div class="container">
+								<p>Delimondo Garlic & Chili <br> Corned Beef</p>
+							</div>
+						</div>
+						<div><img src="https://media.istockphoto.com/vectors/shopping-cart-icon-isolated-on-white-background-vector-id1206806317?k=6&m=1206806317&s=170667a&w=0&h=AWU8_gwiznsLQxCjVn-3wpABn4AHtTSNVgS_A9g4Fro=" alt="carticon" class="addtocart" onclick="add13()"></div>
+					</div>
+					<div id="n">
+						<div class="polaroid">
+							<div><img src="https://boholonlinestore.com/wp-content/uploads/2017/01/mega_sardines_in_tomato_sauce_chili_155g-600x600.jpg" alt="c2 bottle"></div>
+							<div class="container">
+								<p>MEGA Sardines in Tomato <br> sauce w/ Chili 155g</p>
+							</div>
+						</div>
+						<div><img src="https://media.istockphoto.com/vectors/shopping-cart-icon-isolated-on-white-background-vector-id1206806317?k=6&m=1206806317&s=170667a&w=0&h=AWU8_gwiznsLQxCjVn-3wpABn4AHtTSNVgS_A9g4Fro=" alt="carticon" class="addtocart" onclick="add14()"></div>
+					</div>
+					<div id="o">
+						<div class="polaroid">
+							<div><img src="https://ph-test-11.slatic.net/p/4093aa9f2183321db840f563ccbb68f7.jpg" alt="c2 bottle"></div>
+							<div class="container">
+								<p>Century Tuna Premium Chunks <br> in Oil 184g</p>
+							</div>
+						</div>
+						<div><img src="https://media.istockphoto.com/vectors/shopping-cart-icon-isolated-on-white-background-vector-id1206806317?k=6&m=1206806317&s=170667a&w=0&h=AWU8_gwiznsLQxCjVn-3wpABn4AHtTSNVgS_A9g4Fro=" alt="carticon" class="addtocart" onclick="add15()"></div>
+					</div>
+				</div>
+				<br><br>
+				<div>
+					<div id="p">
+						<div class="polaroid">
+							<div><img src="https://ph-test-11.slatic.net/p/7ac8c339dc168105ea18e857dac7ccb6.jpg" alt="c2 bottle"></div>
+							<div class="container">
+								<p>SPAM Less 25% sodium</p>
+							</div>
+						</div>
+						<div><img src="https://media.istockphoto.com/vectors/shopping-cart-icon-isolated-on-white-background-vector-id1206806317?k=6&m=1206806317&s=170667a&w=0&h=AWU8_gwiznsLQxCjVn-3wpABn4AHtTSNVgS_A9g4Fro=" alt="carticon" class="addtocart" onclick="add16()"></div>
+					</div>
+					<div id="q">
+						<div class="polaroid">
+							<div><img src="https://shop.themetrostores.ph/alabang-supermarket/wp-content/uploads/2021/03/SM2101552-2-300x300.jpg"  alt="c2 bottle"></div>
+							<div class="container">
+								<p>Ram Green Peas 225g</p>
+							</div>
+						</div>
+						<div><img src="https://media.istockphoto.com/vectors/shopping-cart-icon-isolated-on-white-background-vector-id1206806317?k=6&m=1206806317&s=170667a&w=0&h=AWU8_gwiznsLQxCjVn-3wpABn4AHtTSNVgS_A9g4Fro=" alt="carticon" class="addtocart" onclick="add17()"></div>
+					</div>
+					<div id="r">
+						<div class="polaroid">
+							<div><img src="https://cdn.shopify.com/s/files/1/0260/6877/9066/products/360928_94baf2b5-8de0-489d-b370-3c6add03ff7b_700x700.jpg?v=1617910851" alt="c2 bottle"></div>
+							<div class="container">
+								<p>Libby Vienna Sausage 4.6oz</p>
+							</div>
+						</div>
+						<div><img src="https://media.istockphoto.com/vectors/shopping-cart-icon-isolated-on-white-background-vector-id1206806317?k=6&m=1206806317&s=170667a&w=0&h=AWU8_gwiznsLQxCjVn-3wpABn4AHtTSNVgS_A9g4Fro=" alt="carticon" class="addtocart" onclick="add18()"></div>
+					</div>
+				</div>
+			</div>
+
+			<div id="level0">
+				Personal & Healthcare Products
+			</div>
+
+			<div id="level11">
+				<div>
+					<div id="s">
+						<div class="polaroid">
+							<div><img src="https://images-na.ssl-images-amazon.com/images/I/71z6wyoYitL._SY355_.jpg" alt="c2 bottle"></div>
+							<div class="container">
+								<p>Dove Nutritive Solutions Daily <br> Moisture Shampoo 12oz</p>
+							</div>
+						</div>
+						<div><img src="https://media.istockphoto.com/vectors/shopping-cart-icon-isolated-on-white-background-vector-id1206806317?k=6&m=1206806317&s=170667a&w=0&h=AWU8_gwiznsLQxCjVn-3wpABn4AHtTSNVgS_A9g4Fro=" alt="carticon" class="addtocart" onclick="add19()"></div>
+					</div>
+					<div id="t">
+						<div class="polaroid">
+							<div><img src="https://cf.shopee.ph/file/a70222990526a405bac33fc5df489c69" alt="c2 bottle"></div>
+							<div class="container">
+								<p>Axe Apollo Deodorant <br> Bodyspray 150ml</p>
+							</div>
+						</div>
+						<div><img src="https://media.istockphoto.com/vectors/shopping-cart-icon-isolated-on-white-background-vector-id1206806317?k=6&m=1206806317&s=170667a&w=0&h=AWU8_gwiznsLQxCjVn-3wpABn4AHtTSNVgS_A9g4Fro=" alt="carticon" class="addtocart" onclick="add20()"></div>
+					</div>
+					<div id="u">
+						<div class="polaroid">
+							<div><img src="https://cdn.shopify.com/s/files/1/0421/2454/2105/products/8850006321546_81ab858d-dbac-4157-971d-43bbb3280b16.jpg?v=1611751847" alt="c2 bottle"></div>
+							<div class="container">
+								<p>Colgate Triple Action Anticavity Toothpaste (33g)</p>
+							</div>
+						</div>
+						<div><img src="https://media.istockphoto.com/vectors/shopping-cart-icon-isolated-on-white-background-vector-id1206806317?k=6&m=1206806317&s=170667a&w=0&h=AWU8_gwiznsLQxCjVn-3wpABn4AHtTSNVgS_A9g4Fro=" alt="carticon" class="addtocart" onclick="add21()"></div>
+					</div>
+				</div>
+				<br><br>
+				<div>
+					<div id="v">
+						<div class="polaroid">
+							<div><img src="https://i5.walmartimages.com/asr/435e58ed-02c1-4413-8311-77dd77e77395.59b93a50a6a99dffbbc52c9201701d1c.jpeg?odnWidth=612&odnHeight=612&odnBg=ffffff" alt="c2 bottle"></div>
+							<div class="container">
+								<p>Cetaphil Light Moisturizing Lotion (237ml)</p>
+							</div>
+						</div>
+						<div><img src="https://media.istockphoto.com/vectors/shopping-cart-icon-isolated-on-white-background-vector-id1206806317?k=6&m=1206806317&s=170667a&w=0&h=AWU8_gwiznsLQxCjVn-3wpABn4AHtTSNVgS_A9g4Fro=" alt="carticon" class="addtocart" onclick="add22()"></div>
+					</div>
+					<div id="w">
+						<div class="polaroid">
+							<div><img src="https://scpa.com.ph/wp-content/uploads/2018/07/13-Sanicare-Vanity-Box-60Pulls-Black.jpg" alt="c2 bottle"></div>
+							<div class="container">
+								<p>Sanicare Unscented 3-Ply Facial Tissues</p>
+							</div>
+						</div>
+						<div><img src="https://media.istockphoto.com/vectors/shopping-cart-icon-isolated-on-white-background-vector-id1206806317?k=6&m=1206806317&s=170667a&w=0&h=AWU8_gwiznsLQxCjVn-3wpABn4AHtTSNVgS_A9g4Fro=" alt="carticon" class="addtocart" onclick="add23()"></div>
+					</div>
+					<div id="x">
+						<div class="polaroid">
+							<div><img src="https://static2.mumzworld.com/media/catalog/product/b/b/bbl-4800047820199--1561441192.jpg" alt="c2 bottle"></div>
+							<div class="container">
+								<p>Green Cross Isopropyl Alcohol 70% Solution</p>
+							</div>
+						</div>
+						<div><img src="https://media.istockphoto.com/vectors/shopping-cart-icon-isolated-on-white-background-vector-id1206806317?k=6&m=1206806317&s=170667a&w=0&h=AWU8_gwiznsLQxCjVn-3wpABn4AHtTSNVgS_A9g4Fro=" alt="carticon" class="addtocart" onclick="add24()"></div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div id="level3">
+			<div id="details">
+                <form id="form">
+                    <p>Delivery Details</p>
+                    <label for="cust_name" id="namelabel" >Name</label> <br>
+
+                    <input type="text" id="cust_name" name="cust_name" placeholder="Name..."><br>
+
+					<label for="cust_email" id="emaillabel" >Email Address</label><br>
+                    <input type="email" id="cust_email" name="cust_email" placeholder="Email..."><br>
+
+                    <label for="cust_addr" id="addresslabel" >Delivery Address</label><br>
+                    <input type="text" id="cust_addr" name="cust_addr" placeholder="Address..."><br><br>
+
+                    <input type="hidden" id="cust_order" name="cust_order" value="">
+
+                    <button type="button" id="checkout" onclick="submitinfo()" onsubmit="return false">Checkout >></button><br><br><br><br>
+                </form>
+			</div>
+
+			<div id="cart">
+				<p>Shopping Cart</p>
+				<div id="extra">
+                    <ul id="listOfOrder">
+
+                    </ul>
+                </div>
+				<div id="total">Total: Php 0.00</div>
+			</div>
+
+
+		</div>
+		
+		<div id="levelx">
+			<div id="text">
+				<p> Mir Bulseco: Developer and Designer </p>
+				<p> Joaquin Nepomuceno: Developer and Designer </p>
+				<p> Joaquin Siazon: Developer and Designer </p>
+				<p> Lucien Tadeo: Main Developer and Shop Owner
+			</div>
+		</div>
+		
+		<div id="level12">
+			<p>© 2021 GRIEN. All Rights Reserved</p>
+			<p>Country & Region: Singapore | Philippines | Japan | Indonesia | Taiwan | HongKong</p>
+		</div>
+						
+		<script src="script.js"></script>
+		
+	</body>
+</html>

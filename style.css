@@ -1,0 +1,301 @@
+<style>
+		@import url('https://fonts.googleapis.com/css?family=Roboto');
+
+
+		body {
+			background-color: #646464;
+		}
+		#level1 {
+			background-color: #7AD33F;
+			font-family: Roboto;
+			padding-top: 18px;
+			padding-bottom: 18px;
+			padding-right: 14px;
+			padding-left: 14px;
+		}
+		#shopname {
+			display: inline;
+			color: white;
+			font-size: 20px;
+			margin-top: 10px;
+			margin-bottom: 10px;
+			margin-right: 10px;
+		}
+    #hey2 {
+      padding-right: 10px;
+    }
+		#home,#hey1,#hey2,#hey3 {
+			display: inline;
+			background-color: #7AD33F;
+			color: white;
+			font-size: 15px;
+			margin-right: 5px;
+			text-decoration: none;
+		}
+		#home:hover {
+			color: gray;
+		}
+		#category {
+			display: none;
+			background-color: #7AD33F;
+			color: white;
+			font-size: 15px;
+			padding-right: 5px;
+			margin-top: 10px;
+			margin-bottom: 10px;
+			margin-right: 5px;
+			border: 1px solid #7AD33F;
+		}
+		#searchbar {
+			display: none;
+			float: right;
+			background-color: white;
+			font-size: 15px;
+			padding: 10px;
+			margin-right: 5px;
+			width: 20%;
+			border-radius: 5px;
+			border: 2px solid white;
+		}
+		#search {
+			display: none;
+			float: right;
+			background-color: #7AD33F;
+			color: white;
+			font-size: 15px;
+			padding: 10px;
+			border: 2px solid white;
+			border-radius: 5px;
+		}
+		#search:hover {
+			background-color: white;
+			color: black;
+		}
+		#level2 {
+			background-image: url('https://images.unsplash.com/photo-1601599561213-832382fd07ba?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTZ8fHN1cGVybWFya2V0fGVufDB8fDB8fA%3D%3D&ixlib=rb-1.2.1&w=1000&q=80');
+			background-position: 80% 20%;
+			background-repeat: no-repeat;
+			background-size: cover;
+			font-family: Roboto;
+			padding-top: 210px;
+			padding-bottom: 215px;
+			word-break: normal;
+			color: white;
+
+		}
+		#text {
+			margin-right: auto;
+			margin-left: auto;
+			text-shadow: 2px 2px 8px black;
+			width: 60%;
+
+		}
+		#greeting {
+			font-size: 60px;
+
+		}
+		#intro {
+			font-size: 15px;
+			margin: 0px;
+		}
+		#learnmore,#checkout, #goshop, #home {
+			background-color: #7AD33F;
+			color: white;
+			font-size: 15px;
+			padding: 10px;
+			border-radius: 5px;
+			border: 2px solid transparent;
+			width: 130px;
+		}
+		#learnmore:hover {
+			background-color: white;
+			border: 2px solid white;
+			color: gray;
+		}
+		#goshop:hover {
+			background-color: white;
+			border: 2px solid white;
+			color: gray;
+		}
+		#level3 {
+			background-color: white;
+			padding-left: 8%;
+			font-family: Roboto;
+      height: auto;
+			display: none;
+      border-style: solid hidden hidden hidden;
+      border-color: #D4D4D4;
+      border-width: 2px;
+		}
+		#level12 {
+			font-family: Roboto;
+			font-size: 15px;
+			text-align: center;
+			background-color: #7AD33F;
+			padding: 60px;
+			color: white;
+			display: block;
+		}
+		#cart {
+			display:inline-block;;
+			background-color: white;
+			margin-left: auto;
+			width: 25%;
+			height: auto;
+			font-size: 25px;
+			padding: 20px;
+		}
+
+
+		#details {
+			display: inline-block;
+			background-color: white;
+			height: 300px;
+			font-size: 25px;
+			padding: 20px;
+		}
+		#extra,#total,#namelabel,#emaillabel,#addresslabel {
+			font-size: 15px;
+		}
+		#cust_name,#cust_email,#cust_addr {
+			width: 750px;
+			font-family: Roboto;
+			font-size: 15px;
+			padding: 7px;
+			border: 2px solid #E5E5E5;
+			border-radius: 5px;
+		}
+		#namelabel {
+			margin-right: 297px;
+		}
+		#cust_name {
+			margin-right: 15px;
+		}
+
+		#extra,#total{
+			background-color: white;
+			color: black;
+			padding: 10px;
+		}
+		#extra {
+			font-style: italic;
+			border: 1px solid #E5E5E5;
+			border-style: solid solid none solid;
+			border-radius: 5px 5px 0px 0px;
+		}
+		#total {
+			font-style: italic;
+			background-color: #E5E5E5;
+			border: 1px solid #E5E5E5;
+			border-radius: 0px 0px 5px 5px ;
+		}
+		#level4,#level6,#level8,#level0 {
+		  	display: none;
+			font-family: Roboto;
+			font-size: 30px;
+			text-align: center;
+			background-color: #7AD33F;
+			padding: 10px;
+			color: white;
+		}
+		#level5,#level7,#level9,#level11 {
+			display: none;
+			background-color: white;
+			padding: 50px 50px 20px 50px;
+			text-align: center;
+			font-family: Roboto;
+			font-size: 15px;
+			overflow: auto;
+			height: 395px;
+		}
+		img {
+			height: 250px;
+			width: 250px;
+		}
+		div.polaroid {
+			width: 250px;
+			box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+			margin-bottom: 25px;
+			display: inline-block;
+			background-color: #7AD33F;
+			color: white;
+		}
+		div.container {
+			text-align: center;
+			padding: 10px 10px;
+		}
+		.addtocart {
+			height: 30px;
+			width: 30px;
+			background-color: white;
+			border: 2px solid gray;
+			border-radius: 120px;
+			padding: 5px;
+		}
+		#a,#b,#c,#d,#e,#f,#g,#h,#i,#j,#k,#l,#m,#n,#o,#p,#q,#r,#s,#t,#u,#v,#w,#x {
+			display: inline-block;
+		}
+
+    #cartList {
+        font-size: 20px;
+        margin-bottom: 10px;
+        margin-top: 10px;
+    }
+    .removeFromCart {
+        margin-bottom: 0px;
+        margin-top:0px;
+        color: white;
+        background-color:red;
+        margin-left: 10px;
+        margin-right: 10px;
+        border: 1px solid transparent;
+        border-radius: 5px;
+        padding: 4px;
+    }
+		#search, #goshop, #learnmore, #home {
+			transition: 0.5s;
+		}
+		@media only screen and (max-width: 1000px) {
+  			#level3 {
+				padding: 10%;
+  			}
+			#cust_name,#cust_email,#cust_addr {
+				width: 150%;
+			}
+			#cart {
+				display: block;
+				width: 300px;
+			}
+			#searchbar {
+				display: none;
+			}
+			#search {
+				display: none;
+			}
+    }
+
+		@media only screen and (max-width: 700px) {
+		    #cust_name,#cust_email,#cust_addr {
+				      width: 100%;
+			  }
+    }
+		#levelx {
+			background-image: url('https://images.unsplash.com/photo-1601599561213-832382fd07ba?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTZ8fHN1cGVybWFya2V0fGVufDB8fDB8fA%3D%3D&ixlib=rb-1.2.1&w=1000&q=80');
+			background-position: 80% 20%;
+			background-repeat: no-repeat;
+			background-size: cover;
+			font-family: Roboto;
+			font-size: 20px;
+			text-align: center;
+			padding-top: 210px;
+			padding-bottom: 205px;
+			word-break: normal;
+			color: white;
+			display: none;
+		}
+		
+		#level12 {
+				padding: 20px;
+		}
+
+      </style>
